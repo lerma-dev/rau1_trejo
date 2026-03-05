@@ -1,10 +1,10 @@
 import './App.css'
-import Text from './components/Text.jsx'
+import Welcome from './components/Welcome.jsx'
 
 function App() {
   return (
     <>
-       <Text />
+       <Welcome />
     </>
   )
 }
