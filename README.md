@@ -5,6 +5,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## clonar repositorio
 ```bash
 git clone https://github.com/lerma-dev/rau1_trejo.git
+cd rau1_trejo
 ```
 
 ## Instalacion para usarlo 
