@@ -1,10 +1,10 @@
 import './App.css'
-import Welcome from './components/Welcome.jsx'
+import Header from './components/partials/header';
 
 function App() {
   return (
     <>
-       <Welcome />
+      <Header />
     </>
   )
 }
