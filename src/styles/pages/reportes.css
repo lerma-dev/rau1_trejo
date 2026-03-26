@@ -1,0 +1,161 @@
+.reportes-container {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reportes-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.reportes-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+.reportes-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-value.purple { color: #7B2CBF; }
+.stat-value.yellow { color: #f9a825; }
+.stat-value.green  { color: #2e7d32; }
+
+.reportes-tabs {
+  display: flex;
+  background: #f0f0f0;
+  border-radius: 30px;
+  padding: 4px;
+  margin-bottom: 20px;
+  gap: 4px;
+}
+
+.tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 26px;
+  background: transparent;
+  font-size: 13px;
+  color: #555;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tab img {
+  width: 16px;
+  height: 16px;
+  opacity: 0.6;
+}
+
+.tab.active {
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
+.tab.active img {
+  opacity: 1;
+}
+
+.reporte-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reporte-row {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reporte-instrumento {
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.reporte-turno {
+  font-size: 12px;
+  color: #888;
+}
+
+.reporte-cupo {
+  text-align: right;
+}
+
+.reporte-cupo span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.reporte-bar {
+  width: 100px;
+  height: 5px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.reporte-bar-fill {
+  height: 100%;
+  background: #7B2CBF;
+  border-radius: 3px;
+}
+
+.reporte-empty {
+  text-align: center;
+  padding: 50px 20px;
+  color: #aaa;
+}
+
+.reporte-empty img {
+  width: 48px;
+  height: 48px;
+  opacity: 0.3;
+  margin-bottom: 12px;
+}
+
+.reporte-empty p {
+  font-size: 15px;
+}

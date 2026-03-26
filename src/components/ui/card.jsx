@@ -1,4 +1,4 @@
-import './card.css';
+import '../../style/ui/card.css';
 
 export function Clases({clase, imagen, minAl, cupoMax, descripcion}){
   return(
@@ -15,11 +15,14 @@ export function Clases({clase, imagen, minAl, cupoMax, descripcion}){
   )
 }
 
-export function Horarios({}){
+export function Horarios({dias, imagen, horas, descripcion}){
   return(
     <>
       <div className="card-horarios">
-
+        <img src={imagen} alt="reloj" />
+        <h1>{dias}</h1>
+        <p>{horas}</p>
+        <p>{descripcion}</p>
       </div>
     </>
   )
