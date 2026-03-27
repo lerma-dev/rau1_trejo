@@ -20,7 +20,7 @@
   color: #333;
   margin-bottom: 24px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #7B2CBF;
+  border-bottom: 2px solid #7b2cbf;
 }
 
 .registrar-row {
@@ -59,7 +59,7 @@
 }
 
 .registrar-field input:focus {
-  border-color: #7B2CBF;
+  border-color: #7b2cbf;
 }
 
 .registrar-success {
@@ -85,7 +85,7 @@
   width: 160px;
   margin: 0 auto;
   padding: 12px;
-  background: linear-gradient(135deg, #7B2CBF, #5a1fa0);
+  background: linear-gradient(135deg, #7b2cbf, #5a1fa0);
   color: #fff;
   border: none;
   border-radius: 8px;

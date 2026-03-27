@@ -43,9 +43,15 @@
   font-weight: bold;
 }
 
-.stat-value.purple { color: #7B2CBF; }
-.stat-value.yellow { color: #f9a825; }
-.stat-value.green  { color: #2e7d32; }
+.stat-value.purple {
+  color: #7b2cbf;
+}
+.stat-value.yellow {
+  color: #f9a825;
+}
+.stat-value.green {
+  color: #2e7d32;
+}
 
 .reportes-tabs {
   display: flex;
@@ -69,7 +75,9 @@
   font-size: 13px;
   color: #555;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .tab img {
@@ -82,7 +90,7 @@
   background: #fff;
   color: #333;
   font-weight: bold;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
 }
 
 .tab.active img {
@@ -139,7 +147,7 @@
 
 .reporte-bar-fill {
   height: 100%;
-  background: #7B2CBF;
+  background: #7b2cbf;
   border-radius: 3px;
 }
 
